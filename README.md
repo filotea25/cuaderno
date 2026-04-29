@@ -32,7 +32,12 @@ A lo largo del curso se han trabajado aspectos clave como:
 
 *Aquí puedes añadir una captura de tu web 👇*
 
-![Vista previa del proyecto](./ruta-a-tu-imagen.png)
+<img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/e46a3a86-b3e9-42e5-8e44-8a00e4b67784" />
+<img width="1893" height="908" alt="image" src="https://github.com/user-attachments/assets/6495bd52-1ea2-42dc-99de-dec24b6c1042" />
+<img width="1909" height="896" alt="image" src="https://github.com/user-attachments/assets/894ab053-d673-45a7-a7e3-5d4a1e3d4b2e" />
+
+
+
 
 ---
 

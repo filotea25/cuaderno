@@ -30,7 +30,7 @@ A lo largo del curso se han trabajado aspectos clave como:
 
 ## 🖼️ Vista previa del proyecto
 
-*Aquí puedes añadir una captura de tu web 👇*
+
 
 <img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/e46a3a86-b3e9-42e5-8e44-8a00e4b67784" />
 <img width="1893" height="908" alt="image" src="https://github.com/user-attachments/assets/6495bd52-1ea2-42dc-99de-dec24b6c1042" />

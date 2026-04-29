@@ -26,7 +26,6 @@ A lo largo del curso se han trabajado aspectos clave como:
 
 ---
 
-<img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/725f04c5-cc6b-448e-9a62-16148935821a" />
 
 
 ## 🖼️ Vista previa del proyecto

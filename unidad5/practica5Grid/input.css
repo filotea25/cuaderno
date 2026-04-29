@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.texto_blanco{
+    @apply font-bold text-white;
+}
+

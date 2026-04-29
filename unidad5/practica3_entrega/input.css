@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+.tarjeta-pro{
+    @apply w-100 h-80 bg-blue-100 p-7 rounded-lg m-auto
+}
+.nombreusuario-pro{
+    @apply text-4xl font-bold mt-2
+}
+
+.descripcion-pro{
+    @apply mt-3 text-gray-500
+}

@@ -1,0 +1,150 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family:'Montserrat', sans-serif;
+    background:#eef2f7;
+    color:#333;
+}
+
+
+
+header{
+    width:100%;
+    background:linear-gradient(135deg,#1b3454,#274472);
+    color:white;
+    padding:30px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:32px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:25px;
+}
+
+/* NAV */
+
+nav{
+    padding:10px 0;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    position:relative;
+    transition:all .3s ease;
+}
+
+/* PSEUDO-SELECTORES */
+
+nav ul li a:hover{
+    color:#ffd369;
+}
+
+nav ul li a:active{
+    transform:scale(.95);
+}
+
+nav ul li a:focus{
+    outline:2px solid #ffd369;
+    outline-offset:4px;
+}
+
+nav ul li a:visited{
+    color:#e6e6e6;
+}
+
+/* línea animada CSS3 */
+
+nav ul li a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0%;
+    height:2px;
+    background:#ffd369;
+    transition:width .3s ease;
+}
+
+nav ul li a:hover::after{
+    width:100%;
+}
+
+
+.contenido{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 20px;
+}
+
+.text{
+    max-width:850px;
+    background:white;
+    padding:50px;
+    border-radius:15px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    text-align:center;
+    line-height:1.8;
+    font-size:18px;
+    transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.text:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+/* FOOTER */
+
+footer{
+    background:linear-gradient(135deg,#1b2f47,#243c5a);
+    color:white;
+    padding:25px 20px;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1000px;
+    margin:auto;
+}
+
+.social a{
+    margin-left:15px;
+    transition:transform .3s ease;
+}
+
+.social a:hover{
+    transform:scale(1.2);
+}
+
+.social img{
+    width:28px;
+    height:28px;
+    filter:brightness(0) invert(1);
+}

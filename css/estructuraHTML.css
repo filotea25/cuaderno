@@ -1,0 +1,221 @@
+/* ==========================
+   RESET GENERAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* header */
+
+header{
+    background:linear-gradient(135deg,#1b3454,#274472);
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    margin-bottom:10px;
+    font-size:2rem;
+}
+
+header p{
+    font-style:italic;
+}
+
+/* nav*/
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:all 0.3s ease;
+}
+
+/* pseudo-clases obligatorias */
+
+nav a:hover{
+    color:#ffd369;
+}
+
+nav a:active{
+    transform:scale(0.95);
+}
+
+nav a:visited{
+    color:#e0e0e0;
+}
+
+nav a:focus{
+    outline:2px solid #ffd369;
+    outline-offset:4px;
+}
+
+/* línea animada */
+
+nav a::after{
+    content:"";
+    display:block;
+    width:0%;
+    height:2px;
+    background:#ffd369;
+    transition:0.3s;
+}
+
+nav a:hover::after{
+    width:100%;
+}
+
+/*main */
+
+main{
+    display:flex;
+    gap:30px;
+    padding:40px;
+}
+
+/* secciones principales */
+
+section{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    margin-bottom:30px;
+}
+
+/* articulos */
+
+article{
+    margin-bottom:25px;
+    padding-bottom:15px;
+    border-bottom:1px solid #ddd;
+}
+
+
+
+pre{
+    background:#1e1e1e;
+    color:#00ffcc;
+    padding:15px;
+    overflow:auto;
+}
+
+/* Tablas */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th, td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+thead{
+    background:#274472;
+    color:white;
+}
+
+tfoot{
+    background:#eee;
+    font-style:italic;
+}
+
+/* formularios */
+
+form{
+    margin-top:20px;
+}
+
+fieldset{
+    border:2px solid #274472;
+    padding:20px;
+    border-radius:10px;
+}
+
+legend{
+    font-weight:bold;
+    padding:0 10px;
+}
+
+input, select, button{
+    margin:8px 0;
+    padding:8px;
+    width:100%;
+}
+
+button{
+    background:#274472;
+    color:white;
+    border:none;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1b3454;
+}
+
+/* aside */
+
+aside{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    height:fit-content;
+}
+
+/* footer */
+
+footer{
+    background:#1b3454;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+footer a{
+    color:#ffd369;
+    text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+/*responsive*/
+@media (max-width:768px){
+
+    main{
+        flex-direction:column;
+    }
+
+    nav ul{
+        flex-direction:column;
+        gap:15px;
+    }
+}

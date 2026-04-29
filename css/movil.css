@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(90deg, rgba(200,349,345,1), 0%,rgba(250,390,395,3),2);
+}
+.tarjeta{
+   width: 400px;
+   margin: auto;
+   border-radius: 0.6em;
+}
+
+.tarjeta-imagen img{
+    width: 100%;
+    display: block;
+
+}
+
+.tarjeta-contenido{
+    text-align: center;
+}
+
+
+.boton{
+    display: inline-block;
+    padding: 10px;
+    border: 0.3em solid  ;
+    border-radius: 7em;
+    text-decoration: none;
+   
+    background-color: linear-gradient(60deg, rgba(rgb(18, 18, 119), 0%, rgba(rgb(3, 3, 47))));
+    margin: auto;
+}
+.contenedor-boton-inicio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-inicio {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #222;
+    transform: scale(1.05);
+}
+

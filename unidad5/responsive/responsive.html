@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <title>Práctica 6 - Responsive</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      background-color: #e9eaef;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+  <!-- Título -->
+  <header class="p-6">
+    <h1 class="text-4xl md:text-5xl font-bold bg-yellow-300 inline-block px-4 py-2">
+      Práctica 6 - Responsive
+    </h1>
+  </header>
+
+  <!-- Card principal -->
+  <main class="flex justify-center items-center px-4 pb-10">
+    
+    <div class="bg-white w-full max-w-4xl rounded-3xl shadow-xl p-8 md:p-12">
+
+      <!-- Parte superior -->
+      <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-6">
+
+        <!-- Ciudad -->
+        <div>
+          <p class="text-gray-500 text-sm">El Tiempo en Jaén</p>
+          <h2 class="text-5xl md:text-6xl font-extrabold text-gray-900 mt-2">
+            Jaén
+          </h2>
+          <p class="text-gray-500 mt-2">Lluvia moderada y fresca.</p>
+          <span class="inline-block mt-3 text-xs bg-cyan-100 text-cyan-600 px-3 py-1 rounded-full">
+            LLUVIA MODERADA Y FRESCA
+          </span>
+        </div>
+
+        <!-- Imagen + Temperatura -->
+        <div class="flex items-center gap-6">
+          <img 
+            src="https://images.unsplash.com/photo-1501691223387-dd0500403074?w=200" 
+            class="w-24 h-24 rounded-full object-cover shadow-lg"
+          >
+          <span class="text-6xl md:text-7xl font-bold text-purple-500">
+            14°
+          </span>
+        </div>
+
+      </div>
+
+      <!-- Línea separadora -->
+      <div class="border-t my-8"></div>
+
+      <!-- Stats -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+
+        <div>
+          <p class="text-xs text-gray-400">PROB. LLUVIA</p>
+          <p class="text-2xl font-bold text-blue-600 mt-1">100%</p>
+        </div>
+
+        <div>
+          <p class="text-xs text-gray-400">HUMEDAD</p>
+          <p class="text-2xl font-bold text-emerald-600 mt-1">92%</p>
+        </div>
+
+        <div>
+          <p class="text-xs text-gray-400">VIENTO</p>
+          <p class="text-2xl font-bold text-red-500 mt-1">24 km/h</p>
+        </div>
+
+        <div>
+          <p class="text-xs text-gray-400">ÍNDICE UV</p>
+          <p class="text-2xl font-bold text-yellow-500 mt-1">Bajo</p>
+        </div>
+
+      </div>
+
+      <!-- Previsión -->
+      <div class="mt-10">
+        <h3 class="font-semibold text-gray-800 mb-4">
+          Previsión para la semana
+        </h3>
+
+        <!-- Día 1 -->
+        <div class="flex justify-between items-center bg-gray-50 rounded-xl p-4 mb-3">
+          <div class="flex items-center gap-3">
+            <span class="font-medium">Viernes</span>
+            <span class="text-sm text-gray-400">Lluvia persistente</span>
+          </div>
+          <div class="text-right">
+            <span class="text-red-500 font-semibold">13°</span>
+            <span class="text-gray-400 ml-2">9°</span>
+          </div>
+        </div>
+
+        <!-- Día 2 -->
+        <div class="flex justify-between items-center bg-gray-50 rounded-xl p-4">
+          <div class="flex items-center gap-3">
+            <span class="font-medium">Sábado</span>
+            <span class="text-sm text-gray-400">Lluvia débil</span>
+          </div>
+          <div class="text-right">
+            <span class="text-red-500 font-semibold">12°</span>
+            <span class="text-gray-400 ml-2">8°</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="flex justify-between text-xs text-gray-400 mt-8">
+        <span>Jaén, Andalucía</span>
+        <span>Actualizado a las 11:55 AM</span>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>

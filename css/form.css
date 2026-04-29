@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("empresa.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-color: #298089; 
+    
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contenedor-registro {
+    width: 350px;
+    background-color: #4b0082; 
+    padding: 30px; 
+    border-radius: 10px; 
+    opacity: 0.9; 
+    
+    border: 3px solid #f8f8ff; 
+}
+
+h1 {
+    color: white; 
+    text-align: center; 
+    text-transform: uppercase; 
+    margin-bottom: 30px; 
+    font-size: 1.25em; 
+}
+
+.campo {
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block; 
+    color: #ffd700; 
+    font-size: 0.875em; 
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: #2c0050; 
+    color: white;
+}
+
+.boton-registro {
+    width: 100%;
+    background-color: #ff4500; 
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-size: 1em; 
+    margin-top: 20px;
+    
+    transition: background-color 0.3s;
+}
+
+.boton-registro:hover {
+    background-color: #faecbf;
+}
+.contenedor-boton-inicio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-inicio {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #222;
+    transform: scale(1.05);
+}

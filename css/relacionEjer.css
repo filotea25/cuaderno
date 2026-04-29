@@ -1,0 +1,237 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:arial;
+background:#f5f5f5;
+}
+
+header{
+background:#8d4935;
+padding:2rem 0;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+gap:3rem;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#8da3a6;
+}
+
+main{
+width:70%;
+margin:6rem auto;
+}
+
+section section{
+background:white;
+padding:4rem;
+margin-bottom:6rem;
+}
+
+h2{color:#8d4935;margin-bottom:3rem;}
+h3{color:#8da3a6;margin-bottom:2rem;}
+
+#ejercicio1 p:first-of-type{border-top:1px solid #8d4935;}
+#ejercicio1 p:last-of-type{border-bottom:1px solid #8d4935;}
+
+.lista1 li:nth-child(even){text-decoration:underline;}
+.lista1 li:nth-child(odd){text-decoration:line-through;}
+.lista2 li:nth-child(4n){color:#8d4935;}
+
+#ejercicio3 strong:first-of-type{color:#8d4935;}
+
+.tabla1:only-child tr{background:#8da3a6;}
+
+#ejercicio5 td:empty{background:#8da3a6;}
+
+#ejercicio6 li::first-letter{text-decoration:underline;}
+
+#ejercicio7 p::before{content:"- ";}
+
+#ejercicio8 ol li{color:#8d4935;}
+#ejercicio8 ul li{color:#8da3a6;}
+
+#ejercicio9 p:first-of-type{text-indent:2em;}
+
+h1{font-size:40px;font-family:arial;}
+h2{font-size:30px;}
+h3{font-size:25px;}
+h4{font-size:20px;}
+h5{font-size:15px;}
+h6{font-size:10px;}
+
+#ejercicio11 p{color:green;text-align:center;}
+
+#ejercicio12 h1{letter-spacing:5px;word-spacing:10px;text-transform:uppercase;}
+#ejercicio12 h2{letter-spacing:3px;word-spacing:7px;text-transform:uppercase;}
+#ejercicio12 h3{letter-spacing:1px;word-spacing:5px;text-transform:uppercase;}
+
+#ejercicio13 a:hover{font-size:1.3em;background:#8da3a6;}
+
+#ejercicio14 a{text-decoration:line-through;}
+
+.colores p{margin:0;padding:1rem;color:white;}
+.colores p:nth-child(1){background:#000;}
+.colores p:nth-child(16){background:#fff;color:black;}
+
+#ejercicio16 tbody th,
+#ejercicio16 tbody td{border:1px solid #8d4935;}
+
+.flex{display:flex;gap:10px;}
+.c1{width:50%;background:#8d4935;height:100px;}
+.c2{width:30%;background:#8da3a6;height:100px;}
+.c3{width:20%;background:#ccc;height:100px;}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+.grid div{border:1px solid #8da3a6;height:80px;}
+
+#ejercicio19 p{text-indent:2em;line-height:1.8;text-align:justify;}
+
+.mayus{text-transform:uppercase;background:#8d4935;color:white;}
+.minus{text-transform:lowercase;background:#8da3a6;}
+.capital{text-transform:capitalize;background:#ccc;}
+
+.tarjeta{
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+background:repeating-linear-gradient(45deg,#8d4935,#8d4935 10px,#8da3a6 10px,#8da3a6 20px);
+color:rgba(255,255,255,0.9);
+padding:2rem;
+}
+
+.centrado{
+width:300px;
+height:300px;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+background:#8da3a6;
+font-size:2em;
+}
+
+.horario td,.horario th{border:1px solid #8d4935;padding:0.5rem;}
+
+#ejercicio24 span:nth-child(even){color:blue;font-weight:bold;}
+
+#ejercicio25 button{
+background:#8da3a6;
+padding:1rem 2rem;
+transition:0.5s;
+}
+#ejercicio25 button:hover{background:#8d4935;color:white;}
+#ejercicio25 button:active{background:green;}
+
+.nivel1{list-style-type:upper-roman;}
+.nivel2{list-style-type:lower-alpha;}
+.nivel3{list-style-type:square;}
+
+.enlaces{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:1rem;
+}
+.enlaces a{
+color:blue;
+text-decoration:underline;
+}
+.enlaces a:visited{color:purple;text-decoration:none;}
+.enlaces a:hover{background:yellow;color:black;}
+.enlaces a:active{color:red;}
+
+.tabla28{
+width:100%;
+text-align:center;
+}
+.tabla28 th{background:#8da3a6;}
+.menu29{
+background:#8d4935;
+max-width:800px;
+margin:0 auto;
+}
+/*ejercicio 29*/
+.menu29 ul{
+display:flex;
+justify-content:center;
+gap:1rem;
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.menu29 li{
+padding:0.5rem;
+display:flex;
+align-items:center;
+}
+
+.menu29 a{
+color:white;
+text-decoration:none;
+font-size:1rem;
+}
+
+.menu29 a:hover{
+color:#8da3a6;
+}
+
+.menu29 .activo{
+font-weight:bold;
+text-decoration:underline;
+}
+
+/*ejercicio 30*/
+.form30{
+max-width:500px;
+margin:0 auto;
+display:flex;
+flex-direction:column;
+}
+
+.form30 input,
+.form30 textarea{
+width:100%;
+height:2.5em;
+margin:1em 0;
+padding:0.5em;
+background:#f2f2f2;
+color:#333;
+border:1px solid #8da3a6;
+font-size:1rem;
+}
+
+.form30 textarea{
+height:5em;
+resize:none;
+}
+
+.form30 input:focus,
+.form30 textarea:focus{
+border-color:#8d4935;
+outline:none;
+}
+
+.form30 button{
+width:50%;
+margin:1.5em auto 0 auto;
+padding:0.7em;
+background:#8d4935;
+color:white;
+border:none;
+font-size:1rem;
+cursor:pointer;
+}
+
+.form30 button:hover{
+background:#8da3a6;
+}

@@ -1,0 +1,105 @@
+.planes-contenedor {
+    display: flex;
+    width: 90%;
+    margin: 50px auto 20px auto;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.plan-item {
+    flex-grow: 1;
+    padding: 15px;
+    border-right: 1px solid #eee;
+    text-align: center;
+}
+
+.plan-item:last-child {
+    border-right: none;
+}
+
+.plan-item h3 {
+    margin-top: 0;
+    color: #4CAF50;
+    font-size: 1.125em; 
+}
+
+.plan-item p {
+    font-size: 0.875em; 
+    color: #555;
+}
+
+.chat-contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.area-entrada {
+    order: 10;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+
+.area-mensajes {
+    order: 1;
+    flex-grow: 1; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.mensaje {
+    background-color: #add8e6;
+    color: #333;
+    padding: 8px 15px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    text-align: left;
+    width: 90%;
+}
+
+.area-entrada input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.boton-enviar {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.contenedor-boton-inicio {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.boton-inicio {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.boton-inicio:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+.boton-inicio:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,62 @@
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: rgb(209, 222, 234);
+    padding: 20px;
+}
+
+.g1{
+    background-color: aquamarine;
+    grid-column: span 2;
+}
+
+.g2{
+    background-color: rgb(31, 90, 71);
+    grid-row: span 2;
+}
+
+.g3{
+    background-color: blue;
+}
+
+.g4{
+    background-color: palevioletred;
+}
+ .g5{
+    background-color: yellow;
+    grid-column: span 2;
+ }
+
+ .g6{
+    background-color: green;
+    grid-column: span 3;
+ }
+
+ .grid1 div{
+    color: white;
+    border-radius: 0.5em;
+    padding: 20px;
+    text-align: center;
+ }
+.contenedor-boton-inicio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-inicio {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #222;
+    transform: scale(1.05);
+}

@@ -1,0 +1,56 @@
+.ud3 {
+  padding: 40px;
+}
+
+.actividad {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.actividad:hover {
+  transform: translateY(-5px);
+}
+
+.visor-pdf {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.btn-descarga {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000047;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-descarga:hover {
+  background-color: #1F1FFF;
+}
+
+.btn-volver {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: #000047;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #1F1FFF;
+  transform: translateY(-3px);
+}
